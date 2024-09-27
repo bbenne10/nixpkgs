@@ -61,6 +61,7 @@ in buildRubyGem rec {
     ./use-system-bundler-version.patch
     ./0004-Support-system-installed-plugins.patch
     ./0001-Revert-Merge-pull-request-12225-from-chrisroberts-re.patch
+    ./update-grpc.patch
   ];
 
   postPatch = ''
